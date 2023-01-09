@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 755px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .site-header h1{
+        font-size: 50px;
+        padding-top: 3rem;
+        margin-top: -3rem;
+    }
+
+    .container {
+        max-width: 460px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    html {
+        background-color: black;
+    }
+
+    .lessons {
+        background-color: #232A46;
+    }
+    
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-top: -3rem;
+        padding-bottom: 3rem;
+        margin-bottom: -3rem;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+
+
+
+    
+}
